@@ -1,0 +1,58 @@
+.intro{
+    height: 100vh;
+    background-color: #090909;
+    font-family: 'Jost';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    a{
+        text-decoration: none;
+    }
+    .introDescription{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        width: 187px;
+        height: 312px;
+    }
+    span{
+        text-align: center;
+        font-weight: 700;
+    }
+    .introTitle{
+        font-size: 42px;
+        line-height: 61px;
+        color: #FFFFFF;
+    }
+    .introSushi{
+        font-size: 80px;
+        line-height: 116px;
+        color: #FF0014;
+    }
+    .introDesc{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        color: #FFFFFF;
+        width: 60%;
+    }
+    #minutes-30{
+        font-weight: 800;
+    }
+    .introButton{
+        width: 301px;
+        height: 75px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 35px;
+        color: #FF0014;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

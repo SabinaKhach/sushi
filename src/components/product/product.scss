@@ -1,0 +1,77 @@
+.product{
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 0 20px;
+    text-align: left;
+    font-family: 'Jost', sans-serif;
+    .productInfo{
+        text-align: left;
+    }
+    .productImage{
+        width: 24rem;
+        height: 20rem;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+   .productPrice{
+    width: 12px;
+    height: 23px;
+    font-size: larger;
+   }
+   .productIngridients{
+    display: flex;
+    flex-direction: column;
+    span{
+        line-height: 30px;
+    }
+   }
+   button{
+    width: 310px;
+    height: 60px;
+    background: #FF0014;
+    border-radius: 10px;
+    font-size: larger;
+    color:white;
+    font-style: normal;
+    font-family: 'Jost';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    margin: 25px 0;
+   }
+   .count{
+    display: flex;
+    input{
+        text-align: center;
+    }
+    .countButton{
+     background-color: darkgray;
+     padding: 5px 15px;
+     font-size: 18px;
+     font-weight: bolder;
+    }
+    .countButtonLeft{
+     border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+    }
+    .countButtonRight{
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+    }
+   }
+   .back{
+    padding: 10px 15px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.559);
+    color: black;
+    font-weight: bolder;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+   }
+}
