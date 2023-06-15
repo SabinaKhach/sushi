@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sushi/static/css/main.f118c35c.css",
+    "main.js": "/sushi/static/js/main.097a5dfc.js",
+    "static/js/787.1b8e1c30.chunk.js": "/sushi/static/js/787.1b8e1c30.chunk.js",
+    "static/media/sushi-intro.png": "/sushi/static/media/sushi-intro.698ceead2dc8bdd254a6.png",
+    "static/media/uniSushi.png": "/sushi/static/media/uniSushi.8d9a0e8aee266a84c880.png",
+    "static/media/niuRoll.png": "/sushi/static/media/niuRoll.7a5bd33b69c065d49859.png",
+    "static/media/goldSushi.png": "/sushi/static/media/goldSushi.b53dec0743b403feb3db.png",
+    "static/media/sakeFurai.png": "/sushi/static/media/sakeFurai.975f1289a2c63f67e0f2.png",
+    "static/media/caliRoll.png": "/sushi/static/media/caliRoll.74f8f78f0c6cd3909d17.png",
+    "static/media/gorosSushi.png": "/sushi/static/media/gorosSushi.e8be86e91f1415f12a58.png",
+    "index.html": "/sushi/index.html",
+    "main.f118c35c.css.map": "/sushi/static/css/main.f118c35c.css.map",
+    "main.097a5dfc.js.map": "/sushi/static/js/main.097a5dfc.js.map",
+    "787.1b8e1c30.chunk.js.map": "/sushi/static/js/787.1b8e1c30.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f118c35c.css",
+    "static/js/main.097a5dfc.js"
+  ]
+}
