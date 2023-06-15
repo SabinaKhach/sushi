@@ -8,7 +8,6 @@ function App() {
   let { typeId } = useParams();
   return (
     <div className="App">
-      whyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy?
       <Routes>
         <Route path='/sushi' element={<Intro />} />
         <Route path="types" element={<Types />} />
