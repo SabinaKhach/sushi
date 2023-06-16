@@ -1,6 +1,7 @@
 import React from 'react';
 import './sushi.scss';
 import { Link } from "react-router-dom";
+import plus from "../../assets/images/plus.png";
 
 const Sushi = ({item,index}) => {
   const savetoLocal = () => {
@@ -14,7 +15,7 @@ const Sushi = ({item,index}) => {
         <span className="sushiName">{item.title}</span>
         <div className="priceBox">
           <span className="price">{item.price}</span>
-          <div className="add">+</div>
+          <div className="add"><img src={plus} alt='plus' /></div>
         </div>
       </div>
     </Link>

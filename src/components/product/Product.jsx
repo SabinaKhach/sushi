@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
 import './product.scss';
 import { Link } from 'react-router-dom';
+import back from '../../assets/images/back.png';
 
 const Product = () => {
     const [item,setItem] = useState('');
     const [count, setCount] =useState(1);
-    const [isMore, setIsMore] =useState(false);
+    const [isMore, setIsMore] =useState(true);
 
     useEffect(()=>{
         setItem(JSON.parse(localStorage.getItem('item')));
@@ -31,9 +32,11 @@ const Product = () => {
 
     return (
         <div className="product">
-            <div className='back'>
-                <Link to="/types">&#60;</Link>
-            </div>
+            <Link to="/types">
+                <div className='back'>
+                    <img src={back} alt='back' />
+                </div>
+            </Link>
             {item ?
             <>
             <div className='productImage' style={{backgroundImage: `url("${item.image}")`}}></div>
@@ -41,7 +44,11 @@ const Product = () => {
                 <h1>{item.title}</h1>
                 <div className='productDescription'>
                     {isMore ? item.description.slice(0, 250) : item.description}
-                    <span onClick={()=>setIsMore(prev=>!prev)}>{isMore ? '...see more' : '...see less'}</span>
+                    {item.description.length > 250 ? 
+                        <span onClick={()=>setIsMore(prev=>!prev)}>
+                            {isMore ? '...see more' : '...see less'}
+                        </span> 
+                    : ''}
                 </div>
                 <div className='productIngridients'>
                     <h3>Ingridients</h3>

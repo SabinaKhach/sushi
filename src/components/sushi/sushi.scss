@@ -35,8 +35,7 @@ color: #FF0014;
 .priceBox{
   display: flex;
   justify-content: space-between;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 0 8px 8px 8px;;
 }
 .add{
   width: 2.2rem;
@@ -48,4 +47,7 @@ color: #FF0014;
   display: flex;
   justify-content: center;
   align-items: center;
+  img{
+    width: 60%;
+  }
 }
