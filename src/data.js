@@ -11,7 +11,8 @@ const data = [
         title: 'California Roll',
         price: 22.90,
         description: 'A California roll is a fresh take on traditional Japanese rice rolls. Filled with avocado, crab, and cucumber, it is fresh and crunchy and makes a filling meal. You can use real or imitation crab.',
-        ingridients: ['avocado','crab','cucumber','rice']
+        ingridients: ['avocado','crab','cucumber','rice'],
+        categories: ['vegan' , 'fish', 'crab', 'sweet', 'spicy', 'gold']
     },
     {
         id: 2 + Date.now(),
@@ -19,7 +20,8 @@ const data = [
         title: 'Gold Sushi',
         price: 100000000,
         description: 'The new golden toro maki sushi roll brings a high roller experience with its chopped blue fin tuna, tempura flakes, and takuan (pickled daikon), all topped with toro (fatty tuna), fried ginger, 24-karat gold leaf, and Ossetra caviar.',
-        ingridients: ['blue fin tuna','tempura flakes','takuan','24-karat gold leaf']
+        ingridients: ['blue fin tuna','tempura flakes','takuan','24-karat gold leaf'],
+        categories: ['fish' , 'sweet', 'gold']
     },
     {
         id: 3 + Date.now(),
